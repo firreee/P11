@@ -1,0 +1,20 @@
+101,John Hammer,808
+107,Linda Meyers,606
+150,Ralph Kramder,qwe
+201,Jerry Pitts,990
+250, Larry Fine, 780
+300,Johnny Five,959
+320,Darlene Junes,780
+360,Stormy Daniels,230
+450, Jane Fry, 0
+550, Mary Worth, -2
+601, Anna Kellog, 570
+670, Bill Murry, 300
+750, Candy Dawn, 1001
+760,Tracy Burns, 950
+800, Joel Matinez, 799
+850, Lucy Lee, 999
+890, Mai Ng, 899
+900, Mike Davis, 200
+950, Charle Potash, 888
+970,Ming Darkfoot,1200
