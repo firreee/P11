@@ -22,7 +22,7 @@ def main():
     with open("points.txt", "r") as infile:
         with open("grades.txt", "w") as grade_file, open("error.txt", "w") as error_file:
             records_read = 0
-            records_written_to_grade_file = 0
+            grade_file = 0
             error_records = 0
             
             line = infile.readline().strip()
@@ -43,7 +43,7 @@ def main():
                         else:
                             grade = calculate_grade(points)
                             grade_file.write(f"{line},{grade}\n")
-                            records_written_to_grade_file += 1
+                            grade_file += 1
                     except ValueError:
                         error_file.write(f"{line}, Points must be numeric\n")
                         error_records += 1
@@ -51,7 +51,7 @@ def main():
                 line = infile.readline().strip()
 
     print("Number of records read:", records_read)
-    print("Number of records written to grade file:", records_written_to_grade_file)
+    print("Number of records written to grade file:", grade_file)
     print("Number of error records:", error_records)
     
     end_time = datetime.datetime.now()
